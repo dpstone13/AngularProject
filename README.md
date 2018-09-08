@@ -1,3 +1,4 @@
 # angular-project
-# Angular6Project
-# AngularProject
+#
+
+This is a a practice project being used to learn Angular2. 
