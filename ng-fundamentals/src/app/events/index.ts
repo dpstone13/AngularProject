@@ -1,0 +1,6 @@
+export * from 'src/app/shared/create-event.component'
+export * from './event-thumbnail.component'
+export * from 'src/app/shared/events-list-resolver.service'
+export * from './events-list.component'
+export * from 'src/app/shared/index'
+export * from './event-details/index'
