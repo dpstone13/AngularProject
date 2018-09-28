@@ -1,7 +1,6 @@
 //NOTE: There are two ways to hide elements in the DOM. ngIf will not even render, just comment out the code in the console, but [hidden] will render and hide. ngIf saves resources.
-
-
 import { Component, Input } from '@angular/core'
+import { IEvent } from 'src/app/shared/index'
 
 @Component({
     selector: 'event-thumbnail',
@@ -32,7 +31,7 @@ import { Component, Input } from '@angular/core'
   `]
 })
 export class EventThumbnailComponent {
-    @Input() event:any
+    @Input() event:IEvent
 
     getStartTimeStyle():any {
       if (this.event && this.event.time === '8:00 am')
