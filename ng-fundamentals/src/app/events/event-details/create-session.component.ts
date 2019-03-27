@@ -35,7 +35,7 @@ export class CreateSessionComponent implements OnInit {
 
         this.newSessionForm = new FormGroup({
             name: this.name,
-            presenter: this.presenter,
+            presenter: this.presenter, 
             duration: this.duration,
             level: this.level,
             abstract: this.abstract
