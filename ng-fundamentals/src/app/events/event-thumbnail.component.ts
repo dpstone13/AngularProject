@@ -1,6 +1,6 @@
 //NOTE: There are two ways to hide elements in the DOM. ngIf will not even render, just comment out the code in the console, but [hidden] will render and hide. ngIf saves resources.
 import { Component, Input } from '@angular/core'
-import { IEvent } from 'src/app/shared/index'
+import { IEvent } from 'src/app/events/index'
 
 @Component({
     selector: 'event-thumbnail',

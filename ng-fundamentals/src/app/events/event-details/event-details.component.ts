@@ -1,7 +1,7 @@
 import { Component } from '@angular/core'
-import { EventService } from 'src/app/shared/event.service'
+import { EventService } from 'src/app/events/shared/event.service'
 import { ActivatedRoute, ActivatedRouteSnapshot } from '@angular/router'
-import { IEvent } from 'src/app/shared/index'
+import { IEvent } from 'src/app/events/shared/index'
 
 @Component({
     templateUrl: './event-details.component.html',

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core'
-import { EventService } from 'src/app/shared/event.service'
+import { EventService } from 'src/app/events/shared/event.service'
 import { ToastrService } from '../common/toastr.service'
 import { ActivatedRoute } from '@angular/router'
-import { IEvent } from 'src/app/shared/index'
+import { IEvent } from 'src/app/events/shared/index'
 
 
 declare let toastr
